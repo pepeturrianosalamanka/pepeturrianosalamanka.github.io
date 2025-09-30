@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tiendita</title>
+<style>
+    nav {
+      background-color: #8E9A9A;
+      padding: 10px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+       div {
+      background-color: #8E9A9A;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%; 
+      color: white;
+      padding: 15px 0;
+    }
+    nav a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #000000;
+      font-weight: bold;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<nav>
+     <a href="index.html">Informacion general</a>
+    <a href="Productos.html">Productos</a>
+</nav>
+    <header> <h1> SUPER HERVAL </h1> </header>
+<h3> Tenemos muchos productos de diferentes categorias como:</h3>
+<ol>
+    <li>Lacteos</li>
+    <li>Embutidos</li>
+    <li>Dotanas</li>
+    <li>Dulceria</li>
+    <li>Productos de limpieza</li>
+    <li>Frutas y verduras</li>
+</ol>
+  <h2>Nuestros productos más vendidos :</h2>
+    <table border="1" cellpadding="8" cellspacing="0">
+    <tr>
+      <th>Nombre</th>
+      <th>Imagen</th>
+      <th>Tipo</th>
+      <th>Precio</th>
+    </tr>
+    <tr>
+      <td>Coca Cola 2L</td>
+      <td>  <img src="coca2l.png" height="80" width="80"> </td>
+      <td>Bebida</td>
+      <td>$38</td>
+    </tr>
+    <tr>
+      <td>Sabritas</td>
+       <td>  <img src="sabritas.webp" height="80" width="120"> </td>
+      <td>Botana</td>
+      <td>$22</td>
+    </tr>
+    <tr>
+      <td>Galletas Oreo</td>
+       <td>  <img src="oreo.webp" height="80" width="120"> </td>
+      <td>Dulce</td>
+      <td>$26</td>
+    </tr>
+    <tr>
+      <td>Pan Bimbo</td>
+       <td>  <img src="bimbo.webp" height="80" width="80"> </td>
+      <td>Pan</td>
+      <td>$45</td>
+    </tr>
+    <tr>
+      <td>Leche Lala 1L</td>
+       <td>  <img src="lala.webp" height="80" width="80"> </td>
+      <td>Lácteo</td>
+      <td>$28</td>
+    </tr>
+  </table>
+    <form action="/enviar" method="post">
+    <label for="jeje">Dudas y comentarios:</label>
+    <input type="text" id="nombre" name="nombre">
+    <input type="submit" value="Enviar">
+  </form>
+  <div></div>
+</body>
+</html>

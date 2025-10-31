@@ -47,17 +47,18 @@ echo "El valor del radio es:" . $r . "<br>";
 
 echo "El valor del diametro mayor es:" . $D . "<br>";
 
-echo "El valor del diametro mmenor es:" . $d . "<br>";
+echo "El valor del diametro menor es:" . $d . "<br>";
+echo "<br>"; 
 
-echo $A1 ."<br>";
+echo "El area del cuadrado es:" . $A1 ."<br>";
 
-echo $A2 ."<br>";
+echo "El area del rectangulo es:" . $A2 ."<br>";
 
-echo $A3 ."<br>";
+echo "El area del triangulo es:" . $A3 ."<br>";
 
-echo $A4 ."<br>";
+echo "El area del circulo es:" . $A4 ."<br>";
 
-echo $A5 ."<br>";
+echo "El area del rombo es:" . $A5 ."<br>";
 ?>
 <a href="index.php">.</a>
 </body>
